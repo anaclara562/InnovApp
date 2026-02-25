@@ -1,0 +1,319 @@
+/*Configurações Gerais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/*Aba Menu*/
+.navbar {
+    margin-left: 94%;
+    margin-top: 30px;
+}
+
+.hamburger { 
+    font-size: 45px;
+    text-decoration: none;
+    padding: 0;       
+    margin: 0;       
+}
+
+
+/*Página Inicial*/
+.principal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; 
+    position: relative;
+    overflow: hidden;
+}
+
+.luz {
+    margin: 0;
+    background: black;
+    height: 100vh;
+
+    position: relative;
+    top: 30%;
+    left: 450px;
+    transform: translate(-50%, -50%);
+    
+    width: 400px;
+    height: 400px;
+    
+    background: radial-gradient(circle, 
+        rgba(255,255,255,0.8) 0%,
+        rgba(255,255,255,0.6) 20%,          
+        rgba(255,255,255,0.4) 40%, 
+        rgba(255,255,255,0.1) 60%, 
+        rgba(255,255,255,0) 80%
+    );
+
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.glow-container {
+    position: relative;
+    left: -14%;
+    z-index: 2; 
+    text-align: center;
+}
+
+.principal h1 {
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 64px;
+    color: #002FBB;
+    margin: 20px 0;
+}
+
+.principal h2 {
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+.btn-contato {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #002FBB;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-family: 'Zen Dots', sans-serif;
+    border-radius: 12px  ;
+    font-size: 32px;
+}
+
+
+/*Página de Apresentação*/
+.luz2 {
+    margin: 0;
+    background: black;
+    height: 100vh;
+
+    position: relative;
+    top: 1100px;
+    left: -50px;
+    transform: translate(-50%, -50%);
+    
+    width: 2500px;
+    height: 3500px;
+    
+    background: radial-gradient(circle, 
+        rgba(0,47,187, 0.8) 0%,
+        rgba(0,47,187,0.6) 20%,          
+        rgba(0,47,187,0.4) 40%, 
+        rgba(0,47,187,0.1) 60%, 
+        rgba(0,47,187,0) 80%
+    );
+
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.quem-somos {
+    position: relative;
+    padding: 200px 8%;
+    margin-top: -3000px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    color: #fff;
+}
+
+.intro-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: -200px;
+}
+
+.glow-text {
+    font-size: 96px;
+    color: #fff;
+    font-family: 'Gugi', sans-serif;
+    text-shadow: 0 0 0px #0044ff;
+}
+
+.intro-text p {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Gugi', sans-serif;
+}
+
+.conteudo-sobre {
+    align-self: flex-end;
+    max-width: 600px;
+    text-align: left;
+    margin-top: 130px;
+    margin-right: 20px;
+    font-family: 'Gugi', sans-serif;
+}
+
+.conteudo-sobre h3 { 
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.conteudo-sobre p { 
+    color: #fff; 
+    line-height: 1.4; 
+    font-size: 24px; 
+}
+    
+.btn-fale-conosco {
+    margin-left: 1100px;
+    margin-top: -120px;
+    margin-bottom: 100px;
+    justify-content: right;
+    width: 16%;
+    background-color: #021F76;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-family:  'Gugi', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.quem-somos img {
+    width: 364px;
+    height: 329px;
+    margin-top: 81px;
+    margin-left: 968px;
+}
+
+
+/*Página com os projetos*/
+.luz3 {
+    margin: 0;
+    background: black;
+    height: 100vh;
+
+    position: relative;
+    top: 450px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+    
+    width: 650px;
+    height: 650px;
+    
+    background: radial-gradient(circle, 
+        rgba(255,255,255,0.8) 0%,
+        rgba(255,255,255,0.6) 20%,          
+        rgba(255,255,255,0.4) 40%, 
+        rgba(255,255,255,0.1) 60%, 
+        rgba(255,255,255,0) 80%
+    );
+
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.projetos {
+    padding: 100px 5%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+}
+
+.projetos h3 {
+    font-size: 64px;
+    margin-bottom: 40px;
+    position: relative;
+    font-family: 'Zen Dots', sans-serif;
+    margin-top: -750px;
+}
+
+.projetos-grid img {
+    width: 865px;
+    height: 296px;
+    margin-top: 0;
+    margin-left: 10px
+}
+
+/*Página com as Avaliações dos Cliente*/
+.clientes {
+    padding: 80px 5%;
+    margin-top: 300px;
+}
+
+.clientes h3 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.clientes-container {
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+}
+
+.card-depoimento {
+    display: flex;
+    min-width: 300px;
+    background: #001042;
+    padding: 30px;
+    width: 450px;
+    height: 777px;
+    border-radius: 20px;
+}
+
+.card-depoimento p {
+    font-family: 'Gugi', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    z-index: 2;
+}
+
+
+/*Rodapé*/
+.luz_footer {
+    margin: 0;
+    background: black;
+    height: 38vh;
+    width: 100%;
+
+    position: relative;
+    top: 430px;
+    
+    background: linear-gradient(to top,
+        rgba(0,47,187, 0.8) 0%,
+        rgba(0,47,187,0.6) 10%,          
+        rgba(0,47,187,0.4) 30%, 
+        rgba(0,47,187,0.1) 60%, 
+        rgba(0,47,187,0) 80%
+    );
+
+    pointer-events: none;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    margin-top: 305px;
+    margin-left: 200px;
+}
+
+.social-icons {
+    display: flex; 
+    align-items: center;  
+    gap: 118px;     
+}
+
+.social-icons img {
+    list-style: none;
+    z-index: 2;
+}
