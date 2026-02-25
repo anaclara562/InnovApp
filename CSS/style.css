@@ -89,7 +89,7 @@ body {
     padding: 12px 40px;
     text-decoration: none;
     font-family: 'Zen Dots', sans-serif;
-    border-radius: 12px  ;
+    border-radius: 12px;
     font-size: 32px;
 }
 
@@ -101,12 +101,12 @@ body {
     height: 100vh;
 
     position: relative;
-    top: 1100px;
+    top: 800px;
     left: -50px;
     transform: translate(-50%, -50%);
     
-    width: 2500px;
-    height: 3500px;
+    width: 2600px;
+    height: 2000px;
     
     background: radial-gradient(circle, 
         rgba(0,47,187, 0.8) 0%,
@@ -123,7 +123,7 @@ body {
 .quem-somos {
     position: relative;
     padding: 200px 8%;
-    margin-top: -3000px;
+    margin-top: -1870px;
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -154,7 +154,7 @@ body {
     align-self: flex-end;
     max-width: 600px;
     text-align: left;
-    margin-top: 130px;
+    margin-top: 65px;
     margin-right: 20px;
     font-family: 'Gugi', sans-serif;
 }
@@ -170,27 +170,11 @@ body {
     font-size: 24px; 
 }
     
-.btn-fale-conosco {
-    margin-left: 1100px;
-    margin-top: -120px;
-    margin-bottom: 100px;
-    justify-content: right;
-    width: 16%;
-    background-color: #021F76;
-    padding: 8px 15px;
-    border-radius: 8px;
-    color: #fff;
-    font-family:  'Gugi', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-}
-
 .quem-somos img {
     width: 364px;
     height: 329px;
-    margin-top: 81px;
-    margin-left: 968px;
+    margin-top: 40px;
+    margin-left: 60px;
 }
 
 
@@ -250,7 +234,7 @@ body {
 }
 
 .clientes h3 {
-    font-size: 48px;
+    font-size: 50px;
     margin-bottom: 30px;
     font-family: 'Zen Dots', sans-serif;
 }
@@ -267,13 +251,13 @@ body {
     background: #001042;
     padding: 30px;
     width: 450px;
-    height: 777px;
+    height: 405px;
     border-radius: 20px;
 }
 
 .card-depoimento p {
     font-family: 'Gugi', sans-serif;
-    font-size: 32px;
+    font-size: 26px;
     color: #fff;
     z-index: 2;
 }
