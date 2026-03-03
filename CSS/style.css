@@ -7,6 +7,7 @@
 
 body {
     background-color: #000;
+    height: auto;
     color: #fff;
     overflow-x: hidden;
 }
@@ -101,7 +102,7 @@ body {
     height: 100vh;
 
     position: relative;
-    top: 800px;
+    top: 520px;
     left: -50px;
     transform: translate(-50%, -50%);
     
@@ -123,7 +124,7 @@ body {
 .quem-somos {
     position: relative;
     padding: 200px 8%;
-    margin-top: -1870px;
+    margin-top: -2170px;
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -220,17 +221,11 @@ body {
     margin-top: -750px;
 }
 
-.projetos-grid img {
-    width: 865px;
-    height: 296px;
-    margin-top: 0;
-    margin-left: 10px
-}
+
 
 /*Página com as Avaliações dos Cliente*/
 .clientes {
     padding: 80px 5%;
-    margin-top: 300px;
 }
 
 .clientes h3 {
@@ -263,31 +258,141 @@ body {
 }
 
 
-/*Rodapé*/
-.luz_footer {
-    margin: 0;
-    background: black;
-    height: 38vh;
-    width: 100%;
-
-    position: relative;
-    top: 430px;
-    
-    background: linear-gradient(to top,
-        rgba(0,47,187, 0.8) 0%,
-        rgba(0,47,187,0.6) 10%,          
-        rgba(0,47,187,0.4) 30%, 
-        rgba(0,47,187,0.1) 60%, 
-        rgba(0,47,187,0) 80%
-    );
-
-    pointer-events: none;
+/*Formulário para Contato*/
+.Formulario {
+    max-width: 800px;
+    margin: 180px auto; 
+    padding: 20px;
+    background-color: #002fbb86; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
+.Formulario h1 {
+    font-family: 'Gugi', sans-serif;
+    font-size: 34px; 
+    background: linear-gradient(to right, #001042, #002FBB);               
+    color: #fff;                            
+    text-align: center;                  
+    text-transform: uppercase;             
+    letter-spacing: 3px;                 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 15px 0; 
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+.preencher_dados {
+    background-color: #001042;
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 23px;
+}
+
+.preencher_dados:hover {
+    background-color: #002FBB;
+    transform: scale(1.05);
+}
+
+.preencher_dados:active {
+    background-color: #0044ff;
+}
+        
+.preencher_dados[type="reset"] {
+    background-color: #f35f5f; 
+}
+
+.preencher_dados[type="reset"]:hover {
+    background-color: #e20000;
+}
+
+.voltar_pagina_inicio {
+    background-color: #001042;
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+.voltar_pagina_inicio:hover {
+    background-color: #002FBB;
+    transform: scale(1.05);
+}
+
+.voltar_pagina_inicio:active {
+    background-color: #0044ff;
+}
+        
+.voltar_pagina_inicio[type="reset"] {
+    background-color: #f35f5f; 
+}
+
+.voltar_pagina_inicio[type="reset"]:hover {
+    background-color: #e20000;
+}
+
+.tit-gradiente h2 {
+    text-align: center;
+    font-family: 'Zen Dots', sans-serif;
+    color: #fff; 
+    background: linear-gradient(to right, #001042, #002FBB); 
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0; 
+}        
+
+fieldset{
+    border: 2px solid #3569be; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.forms{
+    font-family: 'Gugi', sans-serif;
+    color: white;
+    padding-inline: 0;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+/*Rodapé*/
 footer {
     display: flex;
     position: relative;
-    margin-top: 305px;
+    top: 0px;
     margin-left: 200px;
 }
 
@@ -300,4 +405,24 @@ footer {
 .social-icons img {
     list-style: none;
     z-index: 2;
+}
+
+.luz_footer {
+    margin: 0;
+    background: black;
+    height: 38vh;
+    width: 100%;
+
+    position: relative;
+    top: -250px;
+    
+    background: linear-gradient(to top,
+        rgba(0,47,187, 0.8) 0%,
+        rgba(0,47,187,0.6) 10%,          
+        rgba(0,47,187,0.4) 30%, 
+        rgba(0,47,187,0.1) 60%, 
+        rgba(0,47,187,0) 80%
+    );
+
+    pointer-events: none;
 }
